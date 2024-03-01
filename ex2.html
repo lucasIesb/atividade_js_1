@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+        
+        const total = Number(prompt('digite o total'))
+        const validos = Number(prompt('digite os validos'))
+        const nulos = Number(prompt('digite os nulos'))
+        const brancos = Number(prompt('digite os brancos'))
+
+        const soma = brancos + nulos + validos
+
+        if (soma > total){
+            console.log("error")
+        } else {
+           
+        const percBranco = brancos / total * 100 
+        const percNulo = nulos / total * 100 
+        const percValido = validos / total * 100 
+        console.log(percBranco);
+        console.log(percNulo);
+        console.log(percValido);
+         
+
+        }
+
+
+    
+       </script> 
+</head>
+
+<body>
+
+</body>
+</html>

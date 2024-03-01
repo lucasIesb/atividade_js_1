@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let preco;
+
+        let distri
+
+        let impos
+
+        preco = Number(prompt('qual e o valor do carro ?'))
+
+        distri = Number(prompt('taxa da distribuidora?'))
+
+        impos = Number(prompt('qual e o imposto?'))
+
+        let precoper = preco / 100
+
+        distri = precoper * distri
+
+        impos = precoper * impos
+
+        console.log(preco + distri + impos)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
